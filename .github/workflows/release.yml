@@ -6,6 +6,7 @@ on:
 jobs:
   build:
     if: ${{ github.ref == 'refs/heads/main' }}
+    name: Build
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
