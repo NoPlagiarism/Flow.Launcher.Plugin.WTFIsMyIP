@@ -1,0 +1,12 @@
+{
+    "ID": "C07A90D2DB8740D7A6D5D31775663083",
+    "ActionKeyword": "wtfip",
+    "Name": "WTFIsMyIP",
+    "Description": "One fucking more Flow plugin to check your fucking IP details",
+    "Author": "NoPlagiarism",
+    "Version": "0.9.0",
+    "Language": "csharp",
+    "Website": "https://github.com/NoPlagiarism/Flow.Launcher.Plugin.WTFIsMyIP",
+    "IcoPath": "Assets/logo.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.WTFIsMyIP.dll"
+}
