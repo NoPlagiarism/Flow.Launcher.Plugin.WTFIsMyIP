@@ -23,7 +23,8 @@ jobs:
       - name: Build
         run: |
           dotnet publish 'Flow.Launcher.Plugin.WTFIsMyIP\Flow.Launcher.Plugin.WTFIsMyIP.csproj' -r win-x64 -c Release -o "WTFIP-${{steps.version.outputs.prop}}"
-          7z a -tzip "WTFIP-${{steps.version.outputs.prop}}.zip" "WTFIP-${{steps.version.outputs.prop}}/*"
+          cd .\WTFIP-${{steps.version.outputs.prop}}
+          7z a ".\..\WTFIP-${{steps.version.outputs.prop}}.zip" "*"
       - name: Publish
         uses: softprops/action-gh-release@v2
         if: success()
